@@ -4,7 +4,7 @@ from pygame.locals import *
 pygame.init()
 
 FPS = 30    # FPS setting
-fpsClock = pygame.time.Clock()
+fpsClock = pygame.time.Clock()  # this method helps us to make sure our program runs at a certain maximum FPS
 
 # set up the window
 DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)
