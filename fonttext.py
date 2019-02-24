@@ -22,7 +22,7 @@ while True:     # main game loop
 
     for event in pygame.event.get():
         if event.type == QUIT:
-            pygame.exit()
+            pygame.quit()
             sys.exit()
     
     pygame.display.update()
